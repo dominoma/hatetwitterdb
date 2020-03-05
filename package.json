@@ -1,0 +1,37 @@
+{
+  "name": "hatetwitterdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .ts,.js --ignore-path .gitignore .",
+    "webpack": "webpack"
+  },
+  "author": "Dominik Sander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dominoma/git-flow-npm/issues"
+  },
+  "homepage": "https://github.com/dominoma/git-flow-npm#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "@types/node": "^13.1.7",
+    "@typescript-eslint/eslint-plugin": "^2.16.0",
+    "@typescript-eslint/parser": "^2.16.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.4",
+    "typescript-eslint": "0.0.1-alpha.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "@types/mongodb": "^3.5.1",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.4"
+  }
+}
